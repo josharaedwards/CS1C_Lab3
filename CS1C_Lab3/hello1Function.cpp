@@ -1,9 +1,7 @@
-#include <iostream>
-#include <string>
-using namespace std;
+#include "func.h"
 
-int hello1Function(string name1)
+int hello1Funtion(string name1)
 {
-	cout << "hello World" << name1 << endl;
+	cout << "Hello World " << name1 << endl;
 	return 0;
 }
